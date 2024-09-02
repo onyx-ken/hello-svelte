@@ -5,4 +5,12 @@ export default {
     extend: {},
   },
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: ["lofi", "business"],
+    darkTheme: "business", // dark 모드에서 사용할 테마
+    base: true,
+    styled: true,
+    utils: true,
+    logs: true,
+  },
 }
